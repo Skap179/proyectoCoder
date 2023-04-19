@@ -1,0 +1,558 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+/* font-family: 'Dancing Script', cursive; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;  
+}
+
+.hamb{
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+header img{  
+    width: 30px; 
+    float: left;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.barraylupa{
+    display: inline-flex;
+}
+
+.buscar{
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.lupa{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.insta{
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.face{
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.banner{
+    background-color: #f18707;        
+}
+
+.banner img{        
+        width: 100%;
+        height: 500px;       
+}
+
+nav{
+    background-color: #f18707;    
+    width: 100%;
+    height: 30px; 
+        
+}
+
+.menu li{
+    display: inline-block;
+    color: white;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid #f18707;
+
+}
+
+.novedades{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 20px;
+}
+
+.item1{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);
+    
+}
+
+.item2{
+    
+    color: white;
+}
+.item3{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/fiesta\ de\ la\ cerveza\ canelones.png);
+    
+}
+
+.item4{
+    color: white;
+    
+}
+
+.item5{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/la\ disco.jpg);
+    
+}
+
+.item6{
+    
+    color: white;
+}
+.item7{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/el\ barril.jpg);
+    
+}
+
+.item8{
+    
+    color: white;
+}
+
+
+
+.imagen-1{
+    width: 70%;
+    height: 70%;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.imagen-2{
+    width: 70%;
+    height: 70%;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+
+.cabContacto {
+    background-color: #f18707;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    display: block;
+    
+}
+
+.cabContacto h1{
+    text-align: center;
+    font: bold 30px verdana;
+    margin-bottom: 5px;
+}
+
+.secContacto{
+    padding-left: 150px;
+    
+}
+
+section h2{
+    padding-top: 20px;
+    font: bold 20px verdana;
+    
+}
+h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font: bold 25px Dancing Script;
+    
+}
+
+.secContacto div{
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white; 
+}
+
+/*
+footer{
+
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    
+    
+
+}
+*/
+footer img{
+    width: 30px; 
+    float: left;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footLogo{
+    float: left;
+    padding: 10px;
+    
+}
+
+.footredes{
+    display: inline-flex;
+}
+
+footer i{
+    margin-top: 20px;
+    padding: 5px;
+    float: left ;
+}
+
+.footText{
+    
+    font: 10px verdana;
+    padding: 3px;
+    margin-top: 20px;
+    float: right;
+    
+    
+}
+
+.footText p{
+    float: right;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+
+.footText a{
+    color: #f18707;
+    float: right;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.footDerechos{
+
+    text-align: center;
+    font: 15px verdana;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.ini{
+    float: right;
+    font: 20px verdana;
+    padding-right: 20px;
+    padding-top: 15px;
+
+}
+
+.ini a{
+    color: #f18707;
+
+}
+
+.comTitulo{ 
+/*    font: 15px verdana;
+    padding: 15px;
+    padding-left: 120px;
+    */
+    text-align: center;
+    background-color: black;
+    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid #f18707;  
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+}
+
+.com1{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/el\ barril.jpg);
+    
+}
+
+.com2{
+    
+    color: white;
+}
+.com3{
+    color: white;
+    
+    
+}
+
+.com4{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/pizza\ plus\ 2.jpg);
+    
+    
+}
+
+.com5{
+    color: white;
+    
+}
+
+.com6{
+    
+    color: white;
+    
+}
+
+.contenedorBeb{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+}
+
+.beb1{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/cerveceria\ la\ birra.jpg);
+    
+}
+
+.beb2{
+    
+    color: white;
+}
+.beb3{
+    color: white;
+    
+    
+}
+
+.beb4{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/la\ disco.jpg);
+    
+    
+}
+
+.beb5{
+    color: white;
+    
+}
+
+.beb6{
+    
+    color: white;
+    
+}
+
+/*
+.contenedor{
+
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 20px;
+}
+
+.comImg1{    
+    width: 100%;  
+     
+}
+
+.comImg1 img{
+    width: 100%;
+    padding-left: 120px;
+    
+    width: 100%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    
+}
+*/
+.comImg1 p{
+    
+    color: white;
+    margin-top: 15px;
+}
+
+.comImg2 img{
+
+    width: 80%;
+    background-color: black;
+    border: 5px solid white; 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.comImg2 p{
+    
+    color: white;
+    margin-top: 15px;
+}
+
+.comDatos{
+
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.comDatos h3{
+    padding-bottom: 15px;
+}
+
+
+
+.barril{
+    float: right;
+    font: 20px verdana;
+    padding-bottom: 15px;
+    background-color: red;
+    display: inline;
+}
+
+.imgResto{
+
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width :320px) and (max-width: 508px){
+
+    nav{    
+        height: 40px;     
+    } 
+    
+
+}
+
+@media only screen and (min-width :509px) and (max-width: 767px){
+
+    .buscar{    
+        width: 150px;     
+    }     
+}
+
+@media only screen and (min-width:768px)  {
+
+    .buscar{
+        width: 200px;
+    }
+    .novedades{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+        
+    }
+
+    .contenedor{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .contenedorBeb{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
