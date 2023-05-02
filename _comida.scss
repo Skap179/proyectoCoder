@@ -1,0 +1,53 @@
+.comTitulo{ 
+    text-align: center;
+    background-color: $color3;
+    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+    color: $color4;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid $color1;  
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+    background-color: $color2;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+}
+
+.com1{
+    width: 100%;
+    background-color: $color3;
+    border: 5px solid $color4; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/el\ barril.jpg);
+}
+
+.com2{
+    color: $color4;
+}
+.com3{
+    color: $color4;
+}
+
+.com4{
+    width: 100%;
+    background-color: $color3;
+    border: 5px solid $color4; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(imagenes/pizza\ plus\ 2.jpg);
+}
+
+.com5{
+    color: $color4;
+}
+
+.com6{
+    color: $color4;
+}

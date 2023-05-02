@@ -1,0 +1,56 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white; 
+
+    & img{
+        width: 30px; 
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    & i{
+        margin-top: 20px;
+        padding: 5px;
+        float: left ;
+    }
+}
+
+
+.footLogo{
+    float: left;
+    padding: 10px;    
+}
+
+.footredes{
+    display: inline-flex;
+}
+
+
+.footText{
+    font: 10px verdana;
+    padding: 3px;
+    margin-top: 20px;
+    float: right;
+
+    & p{
+        float: right;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+    & a{
+        color: $color1;
+        float: right;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+}
+
+.footDerechos{
+    text-align: center;
+    font: 15px verdana;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}

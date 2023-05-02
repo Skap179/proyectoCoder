@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+$color1: #f18707;
+$color2: #333;
+$color3: black;
+$color4: white;
+
+$tam_ico: 20px; //medida para el tamaño de los iconos
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@mixin formato ($ancho, $colorfondo, $pos){
+    width: $ancho;
+    background-color: $colorfondo;
+    background-size: $pos;
+}
+
+@mixin margenes ($arriba, $abajo){
+    margin-top: $arriba;
+    margin-bottom: $abajo;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color3;
+    color: $color4;  
+
+    & img{
+        @include margenes(5px, 5px );
+        width: 30px; 
+        float: left;
+    }
+}
+
+.hamb{
+    @include margenes(10px, 5px );
+    font-size: $tam_ico;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.barraylupa{
+    display: inline-flex;
+}
+
+.buscar{
+    @include margenes(10px, 5px );
+    width: 150px;
+    height: 20px;
+}
+
+.lupa{
+    @include margenes(10px, 5px);
+    font-size: $tam_ico;
+    margin-left: 10px;
+}
+
+.insta{
+    @include margenes(10px,5px );
+    font-size: $tam_ico;
+    float: right;
+    margin-right: 20px;
+}
+
+.face{
+    @include margenes(10px, 5px);
+    font-size: $tam_ico;
+    float: right;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.banner{
+    background-color: $color1; 
+    
+    & img{
+        width: 100%;
+        height: 500px;  
+    }
+}
+
+@import "_navegacion";
+
+
+h1{
+    text-align: center;
+    background-color: $color3;
+    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+    color: $color4;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid $color1;
+}
+
+.novedades{
+    width: 100%;
+    height: auto;
+    background-color: $color2;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 20px;
+}
+
+.item1{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);    
+}
+
+.item2{    
+    color: white;
+}
+.item3{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-image: url(imagenes/fiesta\ de\ la\ cerveza\ canelones.png);    
+}
+
+.item4{
+    color: $color4;    
+}
+
+.item5{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-image: url(imagenes/la\ disco.jpg);    
+}
+
+.item6{    
+    color: $color4;
+}
+.item7{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-image: url(imagenes/el\ barril.jpg);    
+}
+
+.item8{
+    color: $color4;
+}
+
+.imagen-1{
+    width: 70%;
+    height: 70%;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.imagen-2{
+    width: 70%;
+    height: 70%;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+
+.cabContacto {
+    background-color: $color1;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid $color3;
+    display: block;    
+
+    & h1{
+        text-align: center;
+        font: bold 30px verdana;
+        margin-bottom: 5px;
+    }
+}
+
+
+.secContacto{
+    padding-left: 150px; 
+
+    & div{
+        padding-top: 20px;
+    }   
+}
+
+section h2{
+    padding-top: 20px;
+    font: bold 20px verdana;    
+}
+h3{
+    padding-bottom: 10px;
+    font: bold 25px Dancing Script;    
+}
+
+@import "_pie";
+
+.ini{
+    float: right;
+    font: 20px verdana;
+    padding-right: 20px;
+    padding-top: 15px;
+
+    & a{
+        color: $color1;
+    }
+}
+
+@import "_comida";
+
+.contenedorBeb{
+    width: 100%;
+    height: auto;
+    background-color: $color2;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+}
+
+.beb1{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-image: url(imagenes/cerveceria\ la\ birra.jpg);
+}
+
+.beb2{
+    color: $color4;
+}
+.beb3{
+    color: $color4;
+}
+
+.beb4{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-image: url(imagenes/la\ disco.jpg);
+}
+
+.beb5{
+    color: $color4;
+}
+
+.beb6{
+    color: $color4;
+}
+
+.comImg1 p{
+    color: $color4;
+    margin-top: 15px;
+}
+
+.comImg2 img{
+    @include formato(80%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+}
+
+.comImg2 p{
+    color: $color4;
+    margin-top: 15px;
+}
+
+.comDatos{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: $color4;
+
+    & h3{
+        padding-bottom: 15px;
+    }
+}
+
+.barril{
+    float: right;
+    font: 20px verdana;
+    padding-bottom: 15px;
+    background-color: red;
+    display: inline;
+}
+
+.imgResto{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width :320px) and (max-width: 508px){
+
+    nav{    
+        height: 40px;     
+    } 
+    
+
+}
+
+@media only screen and (min-width :509px) and (max-width: 767px){
+
+    .buscar{    
+        width: 200px;     
+    }     
+}
+
+@media only screen and (min-width:768px)  {
+
+    .buscar{
+        width: 250px;
+    }
+    .novedades{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+        
+    }
+
+    .contenedor{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .contenedorBeb{
+        grid-template-columns: 1fr 1fr ;
+    }
+}

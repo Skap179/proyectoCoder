@@ -1,558 +1,439 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-
-/* font-family: 'Dancing Script', cursive; */
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-header{
-
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white;  
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+header img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 30px;
+  float: left;
 }
 
-.hamb{
-    font-size: 20px;
-    float: left;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-header img{  
-    width: 30px; 
-    float: left;
-    
-    margin-top: 5px;
-    margin-bottom: 5px;
+.hamb {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
-.barraylupa{
-    display: inline-flex;
+.barraylupa {
+  display: inline-flex;
 }
 
-.buscar{
-    width: 100px;
-    height: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.buscar {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 20px;
 }
 
-.lupa{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 5px;
+.lupa {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
-.insta{
-    font-size: 20px;
-    float: right;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.insta {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
-.face{
-    font-size: 20px;
-    float: right;
-    margin-right: 20px;
-    margin-top: 10px;
-    padding-right: 10px;
-    margin-bottom: 5px;
+.face {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
+  padding-right: 10px;
 }
 
-.banner{
-    background-color: #f18707;        
+.banner {
+  background-color: #f18707;
+}
+.banner img {
+  width: 100%;
+  height: 500px;
 }
 
-.banner img{        
-        width: 100%;
-        height: 500px;       
+nav {
+  background-color: #f18707;
+  width: 100%;
+  height: 30px;
 }
 
-nav{
-    background-color: #f18707;    
-    width: 100%;
-    height: 30px; 
-        
+.menu li {
+  display: inline-block;
+  color: white;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: bold;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.menu li{
-    display: inline-block;
-    color: white;
-    font-size: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: bold;
-    margin-right: 10px;
-    margin-left: 10px;
+h1 {
+  text-align: center;
+  background-color: black;
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border: 2px solid #f18707;
 }
 
-h1{
-    text-align: center;
-    background-color: black;
-    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 30px;
-    padding: 10px;
-    border: 2px solid #f18707;
-
+.novedades {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  grid-gap: 20px;
 }
 
-.novedades{
-    width: 100%;
-    height: auto;
-    background-color: #333;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 200px);
-    grid-gap: 20px;
+.item1 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);
 }
 
-.item1{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);
-    
+.item2 {
+  color: white;
 }
 
-.item2{
-    
-    color: white;
-}
-.item3{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/fiesta\ de\ la\ cerveza\ canelones.png);
-    
+.item3 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-image: url(imagenes/fiesta\ de\ la\ cerveza\ canelones.png);
 }
 
-.item4{
-    color: white;
-    
+.item4 {
+  color: white;
 }
 
-.item5{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/la\ disco.jpg);
-    
+.item5 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-image: url(imagenes/la\ disco.jpg);
 }
 
-.item6{
-    
-    color: white;
-}
-.item7{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/el\ barril.jpg);
-    
+.item6 {
+  color: white;
 }
 
-.item8{
-    
-    color: white;
+.item7 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-image: url(imagenes/el\ barril.jpg);
 }
 
-
-
-.imagen-1{
-    width: 70%;
-    height: 70%;
-    margin-right: 10px;
-    padding: 20px;
+.item8 {
+  color: white;
 }
 
-.imagen-2{
-    width: 70%;
-    height: 70%;
-    margin-left: 10px;
-    padding: 20px;
+.imagen-1 {
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+  padding: 20px;
 }
 
+.imagen-2 {
+  width: 70%;
+  height: 70%;
+  margin-left: 10px;
+  padding: 20px;
+}
 
 .cabContacto {
-    background-color: #f18707;
-    width: 100%;
-    height: 70px;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
-    display: block;
-    
+  background-color: #f18707;
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  display: block;
+}
+.cabContacto h1 {
+  text-align: center;
+  font: bold 30px verdana;
+  margin-bottom: 5px;
 }
 
-.cabContacto h1{
-    text-align: center;
-    font: bold 30px verdana;
-    margin-bottom: 5px;
+.secContacto {
+  padding-left: 150px;
+}
+.secContacto div {
+  padding-top: 20px;
 }
 
-.secContacto{
-    padding-left: 150px;
-    
+section h2 {
+  padding-top: 20px;
+  font: bold 20px verdana;
 }
 
-section h2{
-    padding-top: 20px;
-    font: bold 20px verdana;
-    
-}
-h3{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font: bold 25px Dancing Script;
-    
+h3 {
+  padding-bottom: 10px;
+  font: bold 25px Dancing Script;
 }
 
-.secContacto div{
-    padding-top: 20px;
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+footer img {
+  width: 30px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+footer i {
+  margin-top: 20px;
+  padding: 5px;
+  float: left;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white; 
+.footLogo {
+  float: left;
+  padding: 10px;
 }
 
-/*
-footer{
-
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 80px;
-    font-size: 30px;
-    
-    
-
-}
-*/
-footer img{
-    width: 30px; 
-    float: left;
-    
-    margin-top: 5px;
-    margin-bottom: 5px;
+.footredes {
+  display: inline-flex;
 }
 
-.footLogo{
-    float: left;
-    padding: 10px;
-    
+.footText {
+  font: 10px verdana;
+  padding: 3px;
+  margin-top: 20px;
+  float: right;
+}
+.footText p {
+  float: right;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+.footText a {
+  color: #f18707;
+  float: right;
+  margin-right: 5px;
+  padding-right: 5px;
 }
 
-.footredes{
-    display: inline-flex;
+.footDerechos {
+  text-align: center;
+  font: 15px verdana;
+  padding-top: 40px;
+  margin-bottom: 10px;
 }
 
-footer i{
-    margin-top: 20px;
-    padding: 5px;
-    float: left ;
+.ini {
+  float: right;
+  font: 20px verdana;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.ini a {
+  color: #f18707;
 }
 
-.footText{
-    
-    font: 10px verdana;
-    padding: 3px;
-    margin-top: 20px;
-    float: right;
-    
-    
+.comTitulo {
+  text-align: center;
+  background-color: black;
+  font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border: 2px solid #f18707;
 }
 
-.footText p{
-    float: right;
-    margin-right: 5px;
-    padding-right: 5px;
+.contenedor {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 20px;
 }
 
-
-.footText a{
-    color: #f18707;
-    float: right;
-    margin-right: 5px;
-    padding-right: 5px;
-}
-.footDerechos{
-
-    text-align: center;
-    font: 15px verdana;
-    padding-top: 40px;
-    margin-bottom: 10px;
-    
+.com1 {
+  width: 100%;
+  background-color: black;
+  border: 5px solid white;
+  background-size: cover;
+  background-position: center;
+  background-image: url(imagenes/el\ barril.jpg);
 }
 
-.ini{
-    float: right;
-    font: 20px verdana;
-    padding-right: 20px;
-    padding-top: 15px;
-
+.com2 {
+  color: white;
 }
 
-.ini a{
-    color: #f18707;
-
+.com3 {
+  color: white;
 }
 
-.comTitulo{ 
-/*    font: 15px verdana;
-    padding: 15px;
-    padding-left: 120px;
-    */
-    text-align: center;
-    background-color: black;
-    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 30px;
-    padding: 10px;
-    border: 2px solid #f18707;  
+.com4 {
+  width: 100%;
+  background-color: black;
+  border: 5px solid white;
+  background-size: cover;
+  background-position: center;
+  background-image: url(imagenes/pizza\ plus\ 2.jpg);
 }
 
-.contenedor{
-    width: 100%;
-    height: auto;
-    background-color: #333;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 200px);
-    grid-gap: 20px;
+.com5 {
+  color: white;
 }
 
-.com1{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/el\ barril.jpg);
-    
+.com6 {
+  color: white;
 }
 
-.com2{
-    
-    color: white;
-}
-.com3{
-    color: white;
-    
-    
-}
-
-.com4{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/pizza\ plus\ 2.jpg);
-    
-    
+.contenedorBeb {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 20px;
 }
 
-.com5{
-    color: white;
-    
+.beb1 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-image: url(imagenes/cerveceria\ la\ birra.jpg);
 }
 
-.com6{
-    
-    color: white;
-    
+.beb2 {
+  color: white;
 }
 
-.contenedorBeb{
-    width: 100%;
-    height: auto;
-    background-color: #333;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 200px);
-    grid-gap: 20px;
+.beb3 {
+  color: white;
 }
 
-.beb1{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/cerveceria\ la\ birra.jpg);
-    
+.beb4 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-image: url(imagenes/la\ disco.jpg);
 }
 
-.beb2{
-    
-    color: white;
-}
-.beb3{
-    color: white;
-    
-    
+.beb5 {
+  color: white;
 }
 
-.beb4{
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    background-image: url(imagenes/la\ disco.jpg);
-    
-    
+.beb6 {
+  color: white;
 }
 
-.beb5{
-    color: white;
-    
+.comImg1 p {
+  color: white;
+  margin-top: 15px;
 }
 
-.beb6{
-    
-    color: white;
-    
+.comImg2 img {
+  width: 80%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
 }
 
-/*
-.contenedor{
+.comImg2 p {
+  color: white;
+  margin-top: 15px;
+}
 
-    width: 100%;
-    height: auto;
-    background-color: #333;
-    padding: 20px;
-    display: grid;
+.comDatos {
+  padding-top: 10px;
+  padding-left: 30px;
+  color: white;
+}
+.comDatos h3 {
+  padding-bottom: 15px;
+}
+
+.barril {
+  float: right;
+  font: 20px verdana;
+  padding-bottom: 15px;
+  background-color: red;
+  display: inline;
+}
+
+.imgResto {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 508px) {
+  nav {
+    height: 40px;
+  }
+}
+@media only screen and (min-width: 509px) and (max-width: 767px) {
+  .buscar {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .buscar {
+    width: 250px;
+  }
+  .novedades {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 200px);
-    grid-gap: 20px;
+    grid-template-rows: repeat(4, 200px);
+  }
+  .contenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedorBeb {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.comImg1{    
-    width: 100%;  
-     
-}
-
-.comImg1 img{
-    width: 100%;
-    padding-left: 120px;
-    
-    width: 100%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    
-}
-*/
-.comImg1 p{
-    
-    color: white;
-    margin-top: 15px;
-}
-
-.comImg2 img{
-
-    width: 80%;
-    background-color: black;
-    border: 5px solid white; 
-    background-size: cover;
-    background-position: center;
-    
-}
-
-.comImg2 p{
-    
-    color: white;
-    margin-top: 15px;
-}
-
-.comDatos{
-
-    padding-top: 10px;
-    padding-left: 30px;
-    color: white;
-}
-
-.comDatos h3{
-    padding-bottom: 15px;
-}
-
-
-
-.barril{
-    float: right;
-    font: 20px verdana;
-    padding-bottom: 15px;
-    background-color: red;
-    display: inline;
-}
-
-.imgResto{
-
-    width: 50%;
-    float: left;
-    padding: 15px;
-    margin-left: 20px;
-}
-
-@media only screen and (min-width :320px) and (max-width: 508px){
-
-    nav{    
-        height: 40px;     
-    } 
-    
-
-}
-
-@media only screen and (min-width :509px) and (max-width: 767px){
-
-    .buscar{    
-        width: 150px;     
-    }     
-}
-
-@media only screen and (min-width:768px)  {
-
-    .buscar{
-        width: 200px;
-    }
-    .novedades{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-        
-    }
-
-    .contenedor{
-        grid-template-columns: 1fr 1fr ;
-    }
-
-    .contenedorBeb{
-        grid-template-columns: 1fr 1fr ;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */
