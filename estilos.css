@@ -14,6 +14,7 @@ header {
 header img {
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 20px;
   width: 30px;
   float: left;
 }
@@ -180,7 +181,6 @@ h1 {
   font-size: 30px;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
   display: block;
 }
 .cabContacto h1 {
@@ -190,7 +190,9 @@ h1 {
 }
 
 .secContacto {
-  padding-left: 150px;
+  background-color: #333;
+  text-align: center;
+  color: white;
 }
 .secContacto div {
   padding-top: 20px;
@@ -198,12 +200,18 @@ h1 {
 
 section h2 {
   padding-top: 20px;
+  padding-bottom: 30px;
   font: bold 20px verdana;
 }
 
 h3 {
+  padding-top: 30px;
   padding-bottom: 10px;
   font: bold 25px Dancing Script;
+}
+
+.send {
+  margin-bottom: 20px;
 }
 
 footer {
@@ -410,9 +418,67 @@ footer i {
   margin-left: 20px;
 }
 
+.shows {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 400px);
+  grid-gap: 20px;
+}
+
+.elem1 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url(imagenes/cosquin.jpg);
+}
+
+.elem3 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url(imagenes/Aca-estamos.png);
+}
+
+.elem5 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url(imagenes/fiesta\ de\ la\ cerveza\ canelones\ 02.png);
+}
+
+.elem7 {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  border: 5px solid white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);
+}
+
 @media only screen and (min-width: 320px) and (max-width: 508px) {
   nav {
     height: 40px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  .cabContacto {
+    height: 200px;
+    padding: 5px;
   }
 }
 @media only screen and (min-width: 509px) and (max-width: 767px) {
@@ -434,6 +500,4 @@ footer i {
   .contenedorBeb {
     grid-template-columns: 1fr 1fr;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

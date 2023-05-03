@@ -1,0 +1,45 @@
+.shows{
+    width: 100%;
+    height: auto;
+    background-color: $color2;
+    padding: 20px;
+    color: $color4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 400px);
+    grid-gap: 20px;
+}
+
+.elem1{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(imagenes/cosquin.jpg);    
+}
+
+
+.elem3{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(imagenes/Aca-estamos.png);    
+}
+
+.elem5{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(imagenes/fiesta\ de\ la\ cerveza\ canelones\ 02.png);    
+}
+
+.elem7{
+    @include formato(100%,$color3 ,cover);
+    border: 5px solid $color4; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);    
+}
+

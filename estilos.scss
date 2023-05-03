@@ -35,6 +35,7 @@ header{
 
     & img{
         @include margenes(5px, 5px );
+        margin-left: 20px;
         width: 30px; 
         float: left;
     }
@@ -168,41 +169,7 @@ h1{
     padding: 20px;
 }
 
-
-.cabContacto {
-    background-color: $color1;
-    width: 100%;
-    height: 70px;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    border: 1px solid $color3;
-    display: block;    
-
-    & h1{
-        text-align: center;
-        font: bold 30px verdana;
-        margin-bottom: 5px;
-    }
-}
-
-
-.secContacto{
-    padding-left: 150px; 
-
-    & div{
-        padding-top: 20px;
-    }   
-}
-
-section h2{
-    padding-top: 20px;
-    font: bold 20px verdana;    
-}
-h3{
-    padding-bottom: 10px;
-    font: bold 25px Dancing Script;    
-}
+@import "_contacto";
 
 @import "_pie";
 
@@ -300,10 +267,22 @@ h3{
     margin-left: 20px;
 }
 
+@import "_espectaculos";
+
 @media only screen and (min-width :320px) and (max-width: 508px){
 
     nav{    
         height: 40px;     
+    } 
+    
+
+}
+
+@media only screen and (min-width :320px) and (max-width: 800px){
+
+    .cabContacto{    
+        height: 200px; 
+        padding: 5px;    
     } 
     
 
