@@ -227,9 +227,11 @@ footer img {
   margin-bottom: 5px;
 }
 footer i {
-  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
   padding: 5px;
-  float: left;
+  margin-right: 10px;
 }
 
 .footLogo {
@@ -242,15 +244,10 @@ footer i {
 }
 
 .footText {
-  font: 10px verdana;
+  font: 8px verdana;
   padding: 3px;
   margin-top: 20px;
   float: right;
-}
-.footText p {
-  float: right;
-  margin-right: 5px;
-  padding-right: 5px;
 }
 .footText a {
   color: #f18707;
@@ -259,18 +256,12 @@ footer i {
   padding-right: 5px;
 }
 
-.footDerechos {
-  text-align: center;
-  font: 15px verdana;
-  padding-top: 40px;
-  margin-bottom: 10px;
-}
-
 .ini {
   float: right;
-  font: 20px verdana;
+  font: 13px verdana;
+  text-align: center;
   padding-right: 20px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 .ini a {
   color: #f18707;
@@ -295,6 +286,9 @@ footer i {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 200px);
   grid-gap: 20px;
+}
+.contenedor h3 {
+  padding-top: 0px;
 }
 
 .com1 {
@@ -340,6 +334,9 @@ footer i {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 200px);
   grid-gap: 20px;
+}
+.contenedorBeb h3 {
+  padding-top: 0px;
 }
 
 .beb1 {
@@ -470,6 +467,23 @@ footer i {
   background-image: url(imagenes/semana\ de\ la\ cerveza\ pay.jpg);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 410px) {
+  header img {
+    margin-left: 5px;
+  }
+  .insta {
+    margin-right: 10px;
+  }
+  .face {
+    margin-right: 5px;
+  }
+  .novedades {
+    grid-template-rows: repeat(8, 305px);
+  }
+  .contenedor {
+    grid-template-rows: repeat(3, 280px);
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 508px) {
   nav {
     height: 40px;
