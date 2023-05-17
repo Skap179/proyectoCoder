@@ -1,14 +1,14 @@
-.comTitulo{ 
+.comTitulo {
     text-align: center;
     background-color: $color3;
     font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
     color: $color4;
     font-size: 30px;
     padding: 10px;
-    border: 2px solid $color1;  
+    border: 2px solid $color1;
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     height: auto;
     background-color: $color2;
@@ -18,40 +18,41 @@
     grid-template-rows: repeat(3, 200px);
     grid-gap: 20px;
 
-    & h3{
+    & h3 {
         padding-top: 0px;
     }
 }
 
-.com1{
+.com1 {
     width: 100%;
     background-color: $color3;
-    border: 5px solid $color4; 
+    border: 5px solid $color4;
     background-size: cover;
     background-position: center;
-    background-image: url(imagenes/el\ barril.jpg);
+    background-image: url(imagenes/el\ barril\ 2.jpg);
 }
 
-.com2{
-    color: $color4;
-}
-.com3{
+.com2 {
     color: $color4;
 }
 
-.com4{
+.com3 {
+    color: $color4;
+}
+
+.com4 {
     width: 100%;
     background-color: $color3;
-    border: 5px solid $color4; 
+    border: 5px solid $color4;
     background-size: cover;
     background-position: center;
-    background-image: url(imagenes/pizza\ plus\ 2.jpg);
+    background-image: url(imagenes/pizza\ plus\ 3.jpg);
 }
 
-.com5{
+.com5 {
     color: $color4;
 }
 
-.com6{
+.com6 {
     color: $color4;
 }

@@ -5,9 +5,9 @@
     font-size: 30px;
     margin: 0;
     padding: 0;
-    display: block;    
+    display: block;
 
-    & h1{
+    & h1 {
         text-align: center;
         font: bold 30px verdana;
         margin-bottom: 5px;
@@ -15,27 +15,72 @@
 }
 
 
-.secContacto{
+.secContacto {
     background-color: $color2;
     text-align: center;
     color: $color4;
 
-    & div{
+
+    & div {
         padding-top: 20px;
-    }   
+    }
 }
 
-section h2{
+section h2 {
     padding-top: 20px;
     padding-bottom: 30px;
-    font: bold 20px verdana;    
-}
-h3{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font: bold 25px Dancing Script;    
+    font: bold 20px verdana;
 }
 
-.send{
+h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font: bold 25px Dancing Script;
+}
+
+.adj {
+    background-color: $color1;
+    padding: 12px 12px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid $color1;
+    color: white;
+    margin: 4px 2px;
+
+}
+
+.adj:hover {
+
+    background-color: #f19725;
+}
+
+.send {
     margin-bottom: 20px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background: $color1;
+    box-shadow: 0 0 10px $color1, 0 0 40px $color1, 0 0 80px $color1;
+    transition-delay: 0.33s;
+}
+
+
+.btn :hover #span1 {
+    left: 100%;
+    transition: 1s;
 }

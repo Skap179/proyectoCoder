@@ -1,11 +1,11 @@
-nav{
-    background-color: #f18707;    
+nav {
+    background-color: #f18707;
     width: 100%;
-    height: 30px; 
-        
+    height: 30px;
+
 }
 
-.menu li{
+.menu li {
     display: inline-block;
     color: white;
     font-size: 100%;
@@ -13,4 +13,11 @@ nav{
     font: bold;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.menu li:hover {
+
+    color: $color2;
+    transform: scale(1.06);
+    transition: all 0.9s;
 }
